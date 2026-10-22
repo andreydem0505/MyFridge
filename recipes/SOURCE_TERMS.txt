@@ -1,0 +1,58 @@
+DATA SOURCES AND ATTRIBUTION
+Retrieved 2026-10-22. These datasets were not authored by the application author.
+Original recipe texts and source links are retained; images were not downloaded.
+
+1. RuRecipes-93k — Evgenii Pishchik (2025)
+   Dataset: https://huggingface.co/datasets/epishchik/RuRecipes-93k
+   Original source: https://www.russianfood.com/
+   The dataset publisher labels the corpus CC BY-NC 4.0.
+   License: https://creativecommons.org/licenses/by-nc/4.0/
+   Full license is saved as sources/CC-BY-NC-4.0.txt.
+   Changes in this distribution: structural conversion, ingredient normalization,
+   Russian aliases, search indices and optional/alternative ingredient grouping.
+   Source description and attribution are saved in sources/RuRecipes-93k.README.md.
+   This is the dataset publisher's license statement, not an independent clearance
+   of rights held by individual original recipe authors.
+
+2. RecipeNLG — Bień et al. (2020), Poznań University of Technology
+   Authors: Michał Bień, Michał Gilski, Martyna Maciejewska, Wojciech Taisner,
+   Dawid Wisniewski, Agnieszka Lawrynowicz.
+   Project: https://recipenlg.cs.put.poznan.pl/
+   Paper: https://aclanthology.org/2020.inlg-1.4/
+   Dataset card with terms: https://huggingface.co/datasets/mbien/recipe_nlg
+   Actual data mirror: https://huggingface.co/datasets/Mahimas/recipenlg
+   The mirror does not grant a new license. Original RecipeNLG restrictions apply.
+   Changes in this distribution: structural conversion, Russian ingredient mapping,
+   aliases, search indices and optional/alternative ingredient grouping.
+
+The following terms are reproduced from the RecipeNLG dataset card:
+
+I (the "Researcher") have requested permission to use the RecipeNLG dataset
+(the "Dataset") at Poznań University of Technology (PUT). In exchange for such
+permission, Researcher hereby agrees to the following terms and conditions:
+
+1. Researcher shall use the Dataset only for non-commercial research and
+   educational purposes.
+2. PUT makes no representations or warranties regarding the Dataset, including
+   but not limited to warranties of non-infringement or fitness for a particular
+   purpose.
+3. Researcher accepts full responsibility for his or her use of the Dataset and
+   shall defend and indemnify PUT, including its employees, Trustees, officers
+   and agents, against any and all claims arising from Researcher's use of the
+   Dataset including but not limited to Researcher's use of any copies of
+   copyrighted images or text that he or she may create from the Dataset.
+4. Researcher may provide research associates and colleagues with access to the
+   Dataset provided that they first agree to be bound by these terms and
+   conditions.
+5. If Researcher is employed by a for-profit, commercial entity, Researcher's
+   employer shall also be bound by these terms and conditions, and Researcher
+   hereby represents that he or she is fully authorized to enter into this
+   agreement on behalf of such employer.
+
+Non-commercial status alone does not remove RecipeNLG's research/education
+restriction. A public service is not automatically covered by this restriction.
+The combined database keeps the conditions of both source datasets; it is not
+offered under a new permissive license. Source-specific original rights remain.
+
+Keep this file, the dataset attribution and each recipe's source_url with copies
+of the data. Show recipe source links in the application.

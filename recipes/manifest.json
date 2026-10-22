@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "built_on": "2026-10-22",
+  "stats": {
+    "RuRecipes-93k": 92144,
+    "total": 2323286,
+    "with_ingredients": 2323161,
+    "with_instructions": 2323002,
+    "searchable_ru": 2284914,
+    "fully_localized_by_ingredient_names": 422849,
+    "required_groups": 20165493,
+    "untranslated_required_groups": 5481878,
+    "RecipeNLG": 2231142,
+    "products": 1114688,
+    "aliases": 1115935,
+    "ingredient_links": 21114578,
+    "unique_exact_fingerprints": 2323144,
+    "exact_duplicate_rows": 142,
+    "seconds_to_build": 851,
+    "glossary_products": 553,
+    "russian_normalization_reindexed": true
+  },
+  "sources": [
+    {
+      "dataset": "RuRecipes-93k",
+      "author": "Evgenii Pishchik",
+      "year": 2025,
+      "url": "https://huggingface.co/datasets/epishchik/RuRecipes-93k",
+      "license": "CC-BY-NC-4.0",
+      "original_site": "https://www.russianfood.com/",
+      "sha256": "173edd39b10916c82a25fe821ce7dc1b90ccdae3aecbc2f0c3fb7b00940a3d9e"
+    },
+    {
+      "dataset": "RecipeNLG",
+      "authors": "Bień, Gilski, Maciejewska, Taisner, Wisniewski, Lawrynowicz",
+      "year": 2020,
+      "url": "https://recipenlg.cs.put.poznan.pl/",
+      "mirror": "https://huggingface.co/datasets/Mahimas/recipenlg",
+      "terms": "Non-commercial research and educational use only; see SOURCE_TERMS.txt",
+      "sha256": "f376ee0bb9f99f323761abf6270d453f4eff2002c3625d04cabcf8b57dca0803"
+    }
+  ],
+  "limitations": [
+    "English recipe titles and instructions are not translated.",
+    "Russian search of English recipes uses a finite curated glossary; untranslated terms stay required.",
+    "Ingredient matching does not validate quantities, equipment, allergies or cooking safety.",
+    "Source content is unverified; missing original ingredients cannot be reconstructed reliably."
+  ],
+  "normalization": {
+    "pymorphy3": "2.0.3",
+    "pymorphy3_dicts_ru": "2.4.417150.4580142",
+    "glossary_sha256": "0ae1904e52cdf0b3f12b9a4f8862ee727bfff5e4079cd8a4e22f17d5a42c6413",
+    "normalizer_sha256": "33fd68fbce93bdb098cbde18515a32d9982adefc9e20075282417a53f2b826da"
+  },
+  "per_dataset": [
+    {
+      "dataset": "RecipeNLG",
+      "rows": 2231142,
+      "with_instructions": 2231142,
+      "with_required_ingredients": 2231055,
+      "required_names_localized": 330743
+    },
+    {
+      "dataset": "RuRecipes-93k",
+      "rows": 92144,
+      "with_instructions": 91860,
+      "with_required_ingredients": 92048,
+      "required_names_localized": 92048
+    }
+  ]
+}
